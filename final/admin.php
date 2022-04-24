@@ -102,6 +102,10 @@ require 'db_conn.php';
          <input class=" btn btn-lg btn-secondary" type="submit" name="admin" value="Admin" <?php if ($acc['status'] == "admin"){
            echo 'disabled=true';} ?> style="margin: 5px;"/>'
        </div>
+       <div style="display: flex; flex-direction: row; margin-bottom: 20px;">
+       <input style="margin: 20px; width: 200px;" type="newbalance" class="form-control" name = "newbalance" placeholder="New Balance">
+       <button class="w-20 btn  btn-secondary" type="submit">Change balance</button>
+     </div>
         </form>
         <hr color="#0000" size="10" />
         <?php } ?>
