@@ -1,0 +1,21 @@
+.personal{
+    p{
+      text-align:left;
+    }
+    .NameAndEmail{
+
+    }
+    .Name{
+
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+
+    }
+    .Email{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+}
